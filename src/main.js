@@ -10,7 +10,15 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   data:{
-    treeImg:require('./assets/tree2.png')
+    treeImg:require('./assets/tree2.png'),
+    playMusic:require('./assets/tree2.png'),
+    pauseMusic:require('./assets/tree2.png')
+  },
+  methods:{
+    play(){
+
+    }
+
   }
   // components: { App },
   // template: '<App/>'
